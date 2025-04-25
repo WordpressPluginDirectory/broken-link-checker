@@ -29,6 +29,10 @@ if ( ! class_exists( 'blcLinkQuery' ) ) {
 	include_once BLC_DIRECTORY_LEGACY . '/includes/link-query.php';
 }
 
+if ( ! class_exists( 'blcIntegrations' ) ) {
+	include_once BLC_DIRECTORY_LEGACY . '/integrations/integrations.php';
+}
+
 if ( ! class_exists( 'wsBrokenLinkChecker' ) ) {
 
 	/**
@@ -4461,7 +4465,8 @@ if ( ! class_exists( 'wsBrokenLinkChecker' ) ) {
 		 * @return void
 		 */
 		function load_language() {
-			$this->is_textdomain_loaded = load_plugin_textdomain( 'broken-link-checker', false, basename( dirname( $this->loader ) ) . '/languages' );
+			//$this->is_textdomain_loaded = load_plugin_textdomain( 'broken-link-checker', false, basename( dirname( $this->loader ) ) . '/languages' );
+			$this->is_textdomain_loaded = true;
 		}
 
 		protected static function get_default_log_directory() {
