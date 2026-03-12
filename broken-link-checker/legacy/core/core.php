@@ -887,7 +887,7 @@ if ( ! class_exists( 'wsBrokenLinkChecker' ) ) {
 
 			//Output the custom broken link/removed link styles for example links
 			printf(
-				'<style type="text/css">%s %s</style>',
+				'<style>%s %s</style>',
 				$this->conf->options['broken_link_css'],
 				$this->conf->options['removed_link_css']
 			);
@@ -2046,6 +2046,19 @@ if ( ! class_exists( 'wsBrokenLinkChecker' ) ) {
 				//Save the new filter
 				$name           = strip_tags( strval( $_POST['name'] ) );
 				$blc_link_query = blcLinkQuery::getInstance();
+				
+				$params = array();
+				wp_parse_str( $_POST['params'], $params );
+				
+				$allowed_keys   = blcLinkQuery::getInstance()->valid_url_params;
+				$forbidden_keys = array_diff( array_keys( $params ), $allowed_keys );
+
+				if ( count( $forbidden_keys ) > 0 ) {
+					$message   = __( 'Invalid search query: contains forbidden parameters.', 'broken-link-checker' );
+					$msg_class = 'error';
+					return array( $message, $msg_class );
+				}
+				
 				$filter_id      = $blc_link_query->create_custom_filter( $name, $_POST['params'] );
 
 				if ( $filter_id ) {
@@ -4175,12 +4188,18 @@ if ( ! class_exists( 'wsBrokenLinkChecker' ) ) {
 		function maybe_send_email_notifications() {
 			global $wpdb;
 			/** @var wpdb $wpdb */
-
+			//Check if email notifications are enabled.
 			if ( ! WPMUDEV_BLC\App\Options\Settings\Model::instance()->get( 'use_legacy_blc_version' ) ) {
-				return;
+				//If we're on a multisite subsite, check if sending notifications is allowed.
+				if (
+					WPMUDEV_BLC\Core\Utils\Utilities::is_subsite() &&
+					! apply_filters( 'blc_allow_subsites_email_notification', false )
+				) {
+					return;
+				}
 			}
 
-			// email notificaiton.
+			// email notification.
 			$send_notification = apply_filters( 'blc_allow_send_email_notification', $this->conf->options['send_email_notifications'] );
 
 			$send_authors_notifications = apply_filters( 'blc_allow_send_author_email_notification', $this->conf->options['send_authors_email_notifications'] );
@@ -4288,7 +4307,7 @@ if ( ! class_exists( 'wsBrokenLinkChecker' ) ) {
 				$pieces = array(
 					sprintf( __( 'Link text : %s', 'broken-link-checker' ), $instance->ui_get_link_text( 'email' ) ),
 					sprintf( __( 'Link URL : <a href="%1$s">%2$s</a>', 'broken-link-checker' ), htmlentities( $instance->get_url() ), blcUtility::truncate( $instance->get_url(), 70, '' ) ),
-					sprintf( __( 'Source : %s', 'broken-link-checker' ), $instance->ui_get_source( 'email' ) ),
+					sprintf( __( 'Source : View: %s | Edit: %s', 'broken-link-checker' ), $instance->ui_get_source( 'email' ), $instance->ui_get_source() ),
 				);
 
 				$link_entry = implode( '<br>', $pieces );

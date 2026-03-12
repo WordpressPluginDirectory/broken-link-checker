@@ -1,15 +1,15 @@
-# Copyright (C) 2025 WPMU DEV
+# Copyright (C) 2026 WPMU DEV
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Broken Link Checker 2.4.6\n"
+"Project-Id-Version: Broken Link Checker 2.4.8\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/build\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-05-21T17:51:56+00:00\n"
+"POT-Creation-Date: 2026-03-10T10:11:08+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 
@@ -20,8 +20,8 @@ msgstr ""
 #: app/emails/recipient-activation/class-controller.php:88
 #: app/emails/scan-report/class-controller.php:101
 #: core/external/plugins-cross-sell-page/core/plugins-list.php:152
-#: legacy/core/core.php:3964
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/resultsArea.js:223
+#: legacy/core/core.php:3977
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/resultsArea.js:229
 msgid "Broken Link Checker"
 msgstr ""
 
@@ -68,7 +68,7 @@ msgstr ""
 #: legacy/core/core.php:447
 #: legacy/core/core.php:448
 #: legacy/includes/link-query.php:37
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/summary.js:55
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/summary.js:54
 msgid "Broken Links"
 msgstr ""
 
@@ -76,14 +76,6 @@ msgstr ""
 #: app/admin-modals/local/class-controller.php:180
 #: app/admin-pages/cloud-page/class-controller.php:313
 msgid "Something went wrong here."
-msgstr ""
-
-#: app/admin-notices/features/class-view.php:40
-msgid "Introducing Edit Link and Unlink features in Broken Link Checker!"
-msgstr ""
-
-#: app/admin-notices/features/class-view.php:41
-msgid "Now you can edit links and unlink broken links directly from the new Cloud version with ease."
 msgstr ""
 
 #. translators: %1$s The dashboard url
@@ -99,16 +91,16 @@ msgid "Cloud-based Broken Link Checker is currently active on your site. <a href
 msgstr ""
 
 #: app/admin-notices/multisite/class-controller.php:113
-#: legacy/core/core.php:2851
-#: legacy/core/core.php:3293
-#: legacy/core/core.php:3402
-#: legacy/core/core.php:3457
-#: legacy/core/core.php:3472
-#: legacy/core/core.php:3519
-#: legacy/core/core.php:3558
-#: legacy/core/core.php:3684
-#: legacy/core/core.php:3744
-#: legacy/core/core.php:3824
+#: legacy/core/core.php:2864
+#: legacy/core/core.php:3306
+#: legacy/core/core.php:3415
+#: legacy/core/core.php:3470
+#: legacy/core/core.php:3485
+#: legacy/core/core.php:3532
+#: legacy/core/core.php:3571
+#: legacy/core/core.php:3697
+#: legacy/core/core.php:3757
+#: legacy/core/core.php:3837
 #: legacy/includes/screen-options/screen-options.php:185
 msgid "You're not allowed to do that!"
 msgstr ""
@@ -119,6 +111,7 @@ msgid "Cloud Engine supports Multisite’s main site only and doesn’t support 
 msgstr ""
 
 #: app/admin-notices/multisite/class-view.php:64
+#: core/external/wpmudev-black-friday/includes/class-banner.php:397
 #: legacy/core/core.php:569
 #: legacy/includes/admin/table-printer.php:296
 #: legacy/includes/admin/table-printer.php:727
@@ -273,12 +266,12 @@ msgid "Here are your latest broken link test results."
 msgstr ""
 
 #: app/emails/scan-report/class-controller.php:86
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/summary.js:64
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/summary.js:63
 msgid "Total Links"
 msgstr ""
 
 #: app/emails/scan-report/class-controller.php:89
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/summary.js:73
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/summary.js:72
 msgid "Unique URLs"
 msgstr ""
 
@@ -322,7 +315,7 @@ msgstr ""
 #: legacy/core/core.php:955
 #: legacy/includes/admin/table-printer.php:215
 #: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/activeScheduleRow.js:252
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/inactiveScheduleRow.js:37
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/inactiveScheduleRow.js:36
 msgid "Status"
 msgstr ""
 
@@ -916,6 +909,31 @@ msgstr ""
 msgid "Store backups for 50 days"
 msgstr ""
 
+#: core/external/wpmudev-black-friday/includes/class-action-links.php:77
+#: core/external/wpmudev-black-friday/includes/class-admin-menu.php:87
+msgid "Get Black Friday Deal"
+msgstr ""
+
+#: core/external/wpmudev-black-friday/includes/class-admin-menu.php:88
+msgid "WPMUDEV Black Friday Deal"
+msgstr ""
+
+#: core/external/wpmudev-black-friday/includes/class-banner.php:398
+msgid "Black Friday"
+msgstr ""
+
+#: core/external/wpmudev-black-friday/includes/class-banner.php:399
+msgid "Sale"
+msgstr ""
+
+#: core/external/wpmudev-black-friday/includes/class-banner.php:400
+msgid "Get 11 months for free"
+msgstr ""
+
+#: core/external/wpmudev-black-friday/includes/class-banner.php:401
+msgid "See the Deal"
+msgstr ""
+
 #: core/models/class-http-request.php:93
 msgid "Missing url."
 msgstr ""
@@ -963,7 +981,7 @@ msgstr ""
 
 #: core/views/class-admin-page.php:117
 #: core/views/class-admin-page.php:136
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/resultsArea.js:103
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/resultsArea.js:107
 msgid "The Hub"
 msgstr ""
 
@@ -978,7 +996,7 @@ msgstr ""
 
 #: core/views/class-admin-page.php:120
 #: core/views/class-admin-page.php:134
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/resultsArea.js:124
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/resultsArea.js:128
 msgid "Support"
 msgstr ""
 
@@ -1253,7 +1271,7 @@ msgstr ""
 
 #: legacy/core/core.php:1381
 #: legacy/core/core.php:1478
-#: legacy/core/core.php:4073
+#: legacy/core/core.php:4086
 #, php-format
 msgid "%s seconds"
 msgstr ""
@@ -1383,7 +1401,7 @@ msgstr ""
 
 #: legacy/core/core.php:1706
 #: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/activeScheduleRow.js:324
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModal.js:32
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModal.js:31
 msgid "Configure"
 msgstr ""
 
@@ -1396,8 +1414,8 @@ msgid "Enter the keys of acf fields you want to check (one per line). If a field
 msgstr ""
 
 #: legacy/core/core.php:1968
-#: legacy/core/core.php:2058
-#: legacy/core/core.php:2090
+#: legacy/core/core.php:2071
+#: legacy/core/core.php:2103
 #, php-format
 msgid "Database error : %s"
 msgstr ""
@@ -1410,179 +1428,183 @@ msgstr ""
 msgid "Invalid search query."
 msgstr ""
 
-#: legacy/core/core.php:2053
+#: legacy/core/core.php:2057
+msgid "Invalid search query: contains forbidden parameters."
+msgstr ""
+
+#: legacy/core/core.php:2066
 #, php-format
 msgid "Filter \"%s\" created"
 msgstr ""
 
-#: legacy/core/core.php:2080
+#: legacy/core/core.php:2093
 msgid "Filter ID not specified."
 msgstr ""
 
-#: legacy/core/core.php:2087
+#: legacy/core/core.php:2100
 msgid "Filter deleted"
 msgstr ""
 
-#: legacy/core/core.php:2137
+#: legacy/core/core.php:2150
 #, php-format
 msgid "Replaced %d redirect with a direct link"
 msgid_plural "Replaced %d redirects with direct links"
 msgstr[0] ""
 msgstr[1] ""
 
-#: legacy/core/core.php:2148
+#: legacy/core/core.php:2161
 #, php-format
 msgid "Failed to fix %d redirect"
 msgid_plural "Failed to fix %d redirects"
 msgstr[0] ""
 msgstr[1] ""
 
-#: legacy/core/core.php:2159
+#: legacy/core/core.php:2172
 msgid "None of the selected links are redirects!"
 msgstr ""
 
-#: legacy/core/core.php:2246
+#: legacy/core/core.php:2259
 #, php-format
 msgid "%d link updated."
 msgid_plural "%d links updated."
 msgstr[0] ""
 msgstr[1] ""
 
-#: legacy/core/core.php:2257
+#: legacy/core/core.php:2270
 #, php-format
 msgid "Failed to update %d link."
 msgid_plural "Failed to update %d links."
 msgstr[0] ""
 msgstr[1] ""
 
-#: legacy/core/core.php:2350
+#: legacy/core/core.php:2363
 #, php-format
 msgid "%d link removed"
 msgid_plural "%d links removed"
 msgstr[0] ""
 msgstr[1] ""
 
-#: legacy/core/core.php:2361
+#: legacy/core/core.php:2374
 #, php-format
 msgid "Failed to remove %d link"
 msgid_plural "Failed to remove %d links"
 msgstr[0] ""
 msgstr[1] ""
 
-#: legacy/core/core.php:2476
+#: legacy/core/core.php:2489
 #, php-format
 msgid "%d item was skipped because it can't be moved to the Trash. You need to delete it manually."
 msgid_plural "%d items were skipped because they can't be moved to the Trash. You need to delete them manually."
 msgstr[0] ""
 msgstr[1] ""
 
-#: legacy/core/core.php:2498
+#: legacy/core/core.php:2511
 msgid "Didn't find anything to delete!"
 msgstr ""
 
-#: legacy/core/core.php:2537
+#: legacy/core/core.php:2550
 #, php-format
 msgid "%d link scheduled for rechecking"
 msgid_plural "%d links scheduled for rechecking"
 msgstr[0] ""
 msgstr[1] ""
 
-#: legacy/core/core.php:2587
-#: legacy/core/core.php:3488
+#: legacy/core/core.php:2600
+#: legacy/core/core.php:3501
 msgid "This link was manually marked as working by the user."
 msgstr ""
 
-#: legacy/core/core.php:2595
-#: legacy/core/core.php:2659
+#: legacy/core/core.php:2608
+#: legacy/core/core.php:2672
 #, php-format
 msgid "Couldn't modify link %d"
 msgstr ""
 
-#: legacy/core/core.php:2606
+#: legacy/core/core.php:2619
 #, php-format
 msgid "%d link marked as not broken"
 msgid_plural "%d links marked as not broken"
 msgstr[0] ""
 msgstr[1] ""
 
-#: legacy/core/core.php:2670
+#: legacy/core/core.php:2683
 #, php-format
 msgid "%d link dismissed"
 msgid_plural "%d links dismissed"
 msgstr[0] ""
 msgstr[1] ""
 
-#: legacy/core/core.php:2740
+#: legacy/core/core.php:2753
 msgid "The \"Warnings\" page lists problems that are probably temporary or suspected to be false positives.<br> Warnings that persist for a long time will usually be reclassified as broken links."
 msgstr ""
 
-#: legacy/core/core.php:2745
+#: legacy/core/core.php:2758
 msgctxt "admin notice under Tools - Broken links - Warnings"
 msgid "Hide notice"
 msgstr ""
 
-#: legacy/core/core.php:2751
+#: legacy/core/core.php:2764
 msgctxt "a link from the admin notice under Tools - Broken links - Warnings"
 msgid "Change warning settings"
 msgstr ""
 
-#: legacy/core/core.php:2776
+#: legacy/core/core.php:2789
 msgid "Table columns"
 msgstr ""
 
-#: legacy/core/core.php:2795
+#: legacy/core/core.php:2808
 msgid "Show on screen"
 msgstr ""
 
-#: legacy/core/core.php:2802
+#: legacy/core/core.php:2815
 msgid "links"
 msgstr ""
 
-#: legacy/core/core.php:2803
+#: legacy/core/core.php:2816
 #: legacy/includes/admin/table-printer.php:175
 msgid "Apply"
 msgstr ""
 
-#: legacy/core/core.php:2807
+#: legacy/core/core.php:2820
 msgid "Misc"
 msgstr ""
 
-#: legacy/core/core.php:2822
+#: legacy/core/core.php:2835
 #, php-format
 msgid "Highlight links broken for at least %s days"
 msgstr ""
 
-#: legacy/core/core.php:2831
+#: legacy/core/core.php:2844
 msgid "Color-code status codes"
 msgstr ""
 
-#: legacy/core/core.php:3325
+#: legacy/core/core.php:3338
 msgid "View broken links"
 msgstr ""
 
-#: legacy/core/core.php:3326
+#: legacy/core/core.php:3339
 #, php-format
 msgid "Found %d broken link"
 msgid_plural "Found %d broken links"
 msgstr[0] ""
 msgstr[1] ""
 
-#: legacy/core/core.php:3332
+#: legacy/core/core.php:3345
 msgid "No broken links found."
 msgstr ""
 
-#: legacy/core/core.php:3339
+#: legacy/core/core.php:3352
 #, php-format
 msgid "%d URL in the work queue"
 msgid_plural "%d URLs in the work queue"
 msgstr[0] ""
 msgstr[1] ""
 
-#: legacy/core/core.php:3343
+#: legacy/core/core.php:3356
 msgid "No URLs in the work queue."
 msgstr ""
 
-#: legacy/core/core.php:3349
+#: legacy/core/core.php:3362
 #, php-format
 msgctxt "for the \"Detected X unique URLs in Y links\" message"
 msgid "%d unique URL"
@@ -1590,7 +1612,7 @@ msgid_plural "%d unique URLs"
 msgstr[0] ""
 msgstr[1] ""
 
-#: legacy/core/core.php:3353
+#: legacy/core/core.php:3366
 #, php-format
 msgctxt "for the \"Detected X unique URLs in Y links\" message"
 msgid "%d link"
@@ -1598,186 +1620,186 @@ msgid_plural "%d links"
 msgstr[0] ""
 msgstr[1] ""
 
-#: legacy/core/core.php:3359
+#: legacy/core/core.php:3372
 #, php-format
 msgid "Detected %1$s in %2$s and still searching..."
 msgstr ""
 
-#: legacy/core/core.php:3365
+#: legacy/core/core.php:3378
 #, php-format
 msgid "Detected %1$s in %2$s."
 msgstr ""
 
-#: legacy/core/core.php:3372
+#: legacy/core/core.php:3385
 msgid "Searching your blog for links..."
 msgstr ""
 
-#: legacy/core/core.php:3374
+#: legacy/core/core.php:3387
 msgid "No links detected."
 msgstr ""
 
-#: legacy/core/core.php:3411
+#: legacy/core/core.php:3424
 msgctxt "current load"
 msgid "Unknown"
 msgstr ""
 
-#: legacy/core/core.php:3480
-#: legacy/core/core.php:3527
-#: legacy/core/core.php:3581
-#: legacy/core/core.php:3698
-#: legacy/core/core.php:3767
-#: legacy/core/core.php:3847
+#: legacy/core/core.php:3493
+#: legacy/core/core.php:3540
+#: legacy/core/core.php:3594
+#: legacy/core/core.php:3711
+#: legacy/core/core.php:3780
+#: legacy/core/core.php:3860
 #, php-format
 msgid "Oops, I can't find the link %d"
 msgstr ""
 
-#: legacy/core/core.php:3500
-#: legacy/core/core.php:3541
+#: legacy/core/core.php:3513
+#: legacy/core/core.php:3554
 msgid "Oops, couldn't modify the link!"
 msgstr ""
 
-#: legacy/core/core.php:3503
-#: legacy/core/core.php:3544
-#: legacy/core/core.php:3732
-#: legacy/core/core.php:3754
-#: legacy/core/core.php:3834
+#: legacy/core/core.php:3516
+#: legacy/core/core.php:3557
+#: legacy/core/core.php:3745
+#: legacy/core/core.php:3767
+#: legacy/core/core.php:3847
 msgid "Error : link_id not specified"
 msgstr ""
 
-#: legacy/core/core.php:3568
+#: legacy/core/core.php:3581
 msgid "Error : link_id or new_url not specified"
 msgstr ""
 
-#: legacy/core/core.php:3594
-#: legacy/core/core.php:3608
+#: legacy/core/core.php:3607
+#: legacy/core/core.php:3621
 msgid "Oops, the new URL is invalid!"
 msgstr ""
 
-#: legacy/core/core.php:3628
+#: legacy/core/core.php:3641
 msgid "An unexpected error occurred!"
 msgstr ""
 
-#: legacy/core/core.php:3711
+#: legacy/core/core.php:3724
 msgid "An unexpected error occured!"
 msgstr ""
 
-#: legacy/core/core.php:3883
+#: legacy/core/core.php:3896
 msgid "You don't have sufficient privileges to access this information!"
 msgstr ""
 
-#: legacy/core/core.php:3896
+#: legacy/core/core.php:3909
 msgid "Error : link ID not specified"
 msgstr ""
 
-#: legacy/core/core.php:3910
+#: legacy/core/core.php:3923
 #, php-format
 msgid "Failed to load link details (%s)"
 msgstr ""
 
-#: legacy/core/core.php:3984
+#: legacy/core/core.php:3997
 msgid "PHP version"
 msgstr ""
 
-#: legacy/core/core.php:3990
+#: legacy/core/core.php:4003
 msgid "MySQL version"
 msgstr ""
 
-#: legacy/core/core.php:4003
+#: legacy/core/core.php:4016
 msgid "You have an old version of CURL. Redirect detection may not work properly."
 msgstr ""
 
-#: legacy/core/core.php:4014
-#: legacy/core/core.php:4030
-#: legacy/core/core.php:4035
+#: legacy/core/core.php:4027
+#: legacy/core/core.php:4043
+#: legacy/core/core.php:4048
 msgid "Not installed"
 msgstr ""
 
-#: legacy/core/core.php:4017
+#: legacy/core/core.php:4030
 msgid "CURL version"
 msgstr ""
 
-#: legacy/core/core.php:4023
+#: legacy/core/core.php:4036
 msgid "Installed"
 msgstr ""
 
-#: legacy/core/core.php:4036
+#: legacy/core/core.php:4049
 msgid "You must have either CURL or Snoopy installed for the plugin to work!"
 msgstr ""
 
-#: legacy/core/core.php:4046
+#: legacy/core/core.php:4059
 msgid "On"
 msgstr ""
 
-#: legacy/core/core.php:4047
+#: legacy/core/core.php:4060
 msgid "Redirects may be detected as broken links when safe_mode is on."
 msgstr ""
 
-#: legacy/core/core.php:4052
-#: legacy/core/core.php:4066
+#: legacy/core/core.php:4065
+#: legacy/core/core.php:4079
 msgid "Off"
 msgstr ""
 
-#: legacy/core/core.php:4060
+#: legacy/core/core.php:4073
 #, php-format
 msgid "On ( %s )"
 msgstr ""
 
-#: legacy/core/core.php:4061
+#: legacy/core/core.php:4074
 msgid "Redirects may be detected as broken links when open_basedir is on."
 msgstr ""
 
-#: legacy/core/core.php:4079
+#: legacy/core/core.php:4092
 msgid "Database character set"
 msgstr ""
 
-#: legacy/core/core.php:4098
+#: legacy/core/core.php:4111
 msgid "If this value is zero even after several page reloads you have probably encountered a bug."
 msgstr ""
 
-#: legacy/core/core.php:4233
-#: legacy/core/core.php:4358
+#: legacy/core/core.php:4252
+#: legacy/core/core.php:4377
 #, php-format
 msgid "[%s] Broken links detected"
 msgstr ""
 
-#: legacy/core/core.php:4238
+#: legacy/core/core.php:4257
 #, php-format
 msgid "Broken Link Checker has detected %d new broken link on your site."
 msgid_plural "Broken Link Checker has detected %d new broken links on your site."
 msgstr[0] ""
 msgstr[1] ""
 
-#: legacy/core/core.php:4270
+#: legacy/core/core.php:4289
 #, php-format
 msgid "Here's a list of the first %d broken links:"
 msgid_plural "Here's a list of the first %d broken links:"
 msgstr[0] ""
 msgstr[1] ""
 
-#: legacy/core/core.php:4279
+#: legacy/core/core.php:4298
 msgid "Here's a list of the new broken links: "
 msgstr ""
 
-#: legacy/core/core.php:4289
+#: legacy/core/core.php:4308
 #, php-format
 msgid "Link text : %s"
 msgstr ""
 
-#: legacy/core/core.php:4290
+#: legacy/core/core.php:4309
 #, php-format
 msgid "Link URL : <a href=\"%1$s\">%2$s</a>"
 msgstr ""
 
-#: legacy/core/core.php:4291
+#: legacy/core/core.php:4310
 #, php-format
-msgid "Source : %s"
+msgid "Source : View: %s | Edit: %s"
 msgstr ""
 
-#: legacy/core/core.php:4305
+#: legacy/core/core.php:4324
 msgid "You can see all broken links here:"
 msgstr ""
 
-#: legacy/core/core.php:4363
+#: legacy/core/core.php:4382
 #, php-format
 msgid "Broken Link Checker has detected %d new broken link in your posts."
 msgid_plural "Broken Link Checker has detected %d new broken links in your posts."
@@ -1928,7 +1950,7 @@ msgstr ""
 
 #: legacy/includes/admin/search-form.php:32
 #: legacy/includes/link-query.php:81
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/userSearchField.js:261
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/userSearchField.js:286
 msgid "Search"
 msgstr ""
 
@@ -1971,7 +1993,7 @@ msgstr ""
 #: legacy/includes/admin/table-printer.php:375
 #: legacy/includes/admin/table-printer.php:779
 #: legacy/includes/admin/table-printer.php:904
-#: app/admin-modals/legacy/assets/js/components/backButton.js:15
+#: app/admin-modals/legacy/assets/js/components/backButton.js:14
 msgid "Cancel"
 msgstr ""
 
@@ -2177,7 +2199,7 @@ msgstr ""
 msgid "Use this URL"
 msgstr ""
 
-#: legacy/includes/any-post.php:490
+#: legacy/includes/any-post.php:497
 #: legacy/modules/containers/acf_field.php:248
 #: legacy/modules/containers/blogroll.php:46
 #: legacy/modules/containers/comment.php:159
@@ -2185,126 +2207,130 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: legacy/includes/any-post.php:498
+#: legacy/includes/any-post.php:505
 #: legacy/modules/containers/acf_field.php:252
 #: legacy/modules/containers/custom_field.php:258
 msgid "Move this item to the Trash"
 msgstr ""
 
-#: legacy/includes/any-post.php:500
+#: legacy/includes/any-post.php:507
 #: legacy/modules/containers/acf_field.php:252
 #: legacy/modules/containers/custom_field.php:260
 msgid "Trash"
 msgstr ""
 
-#: legacy/includes/any-post.php:505
+#: legacy/includes/any-post.php:512
 #: legacy/modules/containers/acf_field.php:254
 #: legacy/modules/containers/custom_field.php:265
 msgid "Delete this item permanently"
 msgstr ""
 
-#: legacy/includes/any-post.php:507
+#: legacy/includes/any-post.php:514
 #: legacy/modules/containers/acf_field.php:254
 #: legacy/modules/containers/blogroll.php:47
 #: legacy/modules/containers/custom_field.php:267
 msgid "Delete"
 msgstr ""
 
-#: legacy/includes/any-post.php:520
+#: legacy/includes/any-post.php:527
 #, php-format
 msgid "Preview &#8220;%s&#8221;"
 msgstr ""
 
-#: legacy/includes/any-post.php:521
+#: legacy/includes/any-post.php:528
 msgid "Preview"
 msgstr ""
 
-#: legacy/includes/any-post.php:528
+#: legacy/includes/any-post.php:535
 #, php-format
 msgid "View &#8220;%s&#8221;"
 msgstr ""
 
-#: legacy/includes/any-post.php:529
+#: legacy/includes/any-post.php:536
 #: legacy/modules/containers/acf_field.php:258
 #: legacy/modules/containers/comment.php:172
 #: legacy/modules/containers/custom_field.php:272
 msgid "View"
 msgstr ""
 
-#: legacy/includes/any-post.php:548
+#: legacy/includes/any-post.php:556
+msgid "View this item"
+msgstr ""
+
+#: legacy/includes/any-post.php:563
 #: legacy/modules/containers/acf_field.php:248
 #: legacy/modules/containers/custom_field.php:252
 msgid "Edit this item"
 msgstr ""
 
-#: legacy/includes/any-post.php:623
+#: legacy/includes/any-post.php:639
 #: legacy/modules/containers/blogroll.php:83
 #: legacy/modules/containers/comment.php:43
 msgid "Nothing to update"
 msgstr ""
 
-#: legacy/includes/any-post.php:637
+#: legacy/includes/any-post.php:653
 #, php-format
 msgid "Updating post %d failed"
 msgstr ""
 
-#: legacy/includes/any-post.php:733
+#: legacy/includes/any-post.php:749
 #: legacy/modules/containers/acf_field.php:327
 #: legacy/modules/containers/custom_field.php:341
 #, php-format
 msgid "Failed to delete post \"%1$s\" (%2$d)"
 msgstr ""
 
-#: legacy/includes/any-post.php:752
+#: legacy/includes/any-post.php:768
 #: legacy/modules/containers/acf_field.php:341
 #: legacy/modules/containers/custom_field.php:360
 #, php-format
 msgid "Can't move post \"%1$s\" (%2$d) to the trash because the trash feature is disabled"
 msgstr ""
 
-#: legacy/includes/any-post.php:772
+#: legacy/includes/any-post.php:788
 #: legacy/modules/containers/acf_field.php:353
 #: legacy/modules/containers/custom_field.php:379
 #, php-format
 msgid "Failed to move post \"%1$s\" (%2$d) to the trash"
 msgstr ""
 
-#: legacy/includes/any-post.php:879
+#: legacy/includes/any-post.php:895
 #, php-format
 msgid "%d post deleted."
 msgid_plural "%d posts deleted."
 msgstr[0] ""
 msgstr[1] ""
 
-#: legacy/includes/any-post.php:881
+#: legacy/includes/any-post.php:897
 #, php-format
 msgid "%d page deleted."
 msgid_plural "%d pages deleted."
 msgstr[0] ""
 msgstr[1] ""
 
-#: legacy/includes/any-post.php:883
+#: legacy/includes/any-post.php:899
 #, php-format
 msgid "%1$d \"%2$s\" deleted."
 msgid_plural "%1$d \"%2$s\" deleted."
 msgstr[0] ""
 msgstr[1] ""
 
-#: legacy/includes/any-post.php:902
+#: legacy/includes/any-post.php:918
 #, php-format
 msgid "%d post moved to the Trash."
 msgid_plural "%d posts moved to the Trash."
 msgstr[0] ""
 msgstr[1] ""
 
-#: legacy/includes/any-post.php:904
+#: legacy/includes/any-post.php:920
 #, php-format
 msgid "%d page moved to the Trash."
 msgid_plural "%d pages moved to the Trash."
 msgstr[0] ""
 msgstr[1] ""
 
-#: legacy/includes/any-post.php:906
+#: legacy/includes/any-post.php:922
 #, php-format
 msgid "%1$d \"%2$s\" moved to the Trash."
 msgid_plural "%1$d \"%2$s\" moved to the Trash."
@@ -2432,7 +2458,7 @@ msgid "Parser '%s' not found."
 msgstr ""
 
 #: legacy/includes/link-query.php:25
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/recipientSearchFilters.js:66
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/recipientSearchFilters.js:80
 msgid "All"
 msgstr ""
 
@@ -2495,7 +2521,7 @@ msgid "Search Results"
 msgstr ""
 
 #: legacy/includes/link-query.php:83
-#: legacy/includes/link-query.php:131
+#: legacy/includes/link-query.php:133
 msgid "No links found for your query"
 msgstr ""
 
@@ -2937,7 +2963,7 @@ msgstr ""
 msgid "Image"
 msgstr ""
 
-#: app/admin-modals/legacy/assets/js/components/legacyButton.js:48
+#: app/admin-modals/legacy/assets/js/components/legacyButton.js:47
 #: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/saveScheduleButton.js:22
 #: core/external/hub-connector/assets/js/hub-connector.min.js:20868
 msgid "Continue"
@@ -2959,32 +2985,32 @@ msgstr ""
 msgid "Local Link Checker is inactive"
 msgstr ""
 
-#: app/admin-modals/local/assets/js/components/activationButton.js:162
+#: app/admin-modals/local/assets/js/components/activationButton.js:161
 msgid "Create free account"
 msgstr ""
 
-#: app/admin-modals/local/assets/js/components/activationButton.js:168
-#: app/admin-modals/local/assets/js/components/activationButton.js:174
+#: app/admin-modals/local/assets/js/components/activationButton.js:167
+#: app/admin-modals/local/assets/js/components/activationButton.js:173
 msgid "Enable new version"
 msgstr ""
 
-#: app/admin-modals/local/assets/js/components/footerBottomLink.js:11
+#: app/admin-modals/local/assets/js/components/footerBottomLink.js:10
 msgid "Already a member?"
 msgstr ""
 
-#: app/admin-modals/local/assets/js/components/footerBottomLink.js:15
+#: app/admin-modals/local/assets/js/components/footerBottomLink.js:14
 msgid "Connect site"
 msgstr ""
 
-#: app/admin-modals/local/assets/js/components/showModalButton.js:19
+#: app/admin-modals/local/assets/js/components/showModalButton.js:18
 msgid "Managing multiple sites?"
 msgstr ""
 
-#: app/admin-modals/local/assets/js/components/showModalButton.js:20
+#: app/admin-modals/local/assets/js/components/showModalButton.js:19
 msgid "Try Cloud Link Checker"
 msgstr ""
 
-#: app/admin-modals/local/assets/js/layouts/modalHeader.js:13
+#: app/admin-modals/local/assets/js/layouts/modalHeader.js:12
 msgid "Activate new Broken Link Checker"
 msgstr ""
 
@@ -3018,7 +3044,7 @@ msgid "Schedule has been disabled"
 msgstr ""
 
 #: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/activeScheduleRow.js:249
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/inactiveScheduleRow.js:34
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/inactiveScheduleRow.js:33
 msgid "Notification"
 msgstr ""
 
@@ -3031,9 +3057,9 @@ msgid "Schedule"
 msgstr ""
 
 #: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/activeScheduleRow.js:269
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/inactiveScheduleRow.js:50
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/inactiveScheduleRow.js:49
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/inactiveScheduleRow.js:70
 #: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/inactiveScheduleRow.js:71
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/inactiveScheduleRow.js:72
 #: app/admin-pages/cloud-page/assets/js/layouts/dashboard/schedulesArea.js:34
 msgid "Schedule Scan"
 msgstr ""
@@ -3043,12 +3069,12 @@ msgid "Enabled"
 msgstr ""
 
 #: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/activeScheduleRow.js:278
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/inactiveScheduleRow.js:54
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/inactiveScheduleRow.js:53
 msgid "Disabled"
 msgstr ""
 
 #: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/activeScheduleRow.js:295
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/inactiveScheduleRow.js:65
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/inactiveScheduleRow.js:64
 #: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/newScanButton.js:95
 msgid "Upgrade Membership"
 msgstr ""
@@ -3061,15 +3087,15 @@ msgstr ""
 msgid "Disable"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/deactivateScheduleButton.js:70
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/deactivateScheduleButton.js:69
 msgid "Settings saved. Schedule has been deactivated successfully"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/deactivateScheduleButton.js:113
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/deactivateScheduleButton.js:112
 msgid "Deactivate"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/inactiveScheduleRow.js:59
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/inactiveScheduleRow.js:58
 msgid "Schedule broken link checks and receive results via email."
 msgstr ""
 
@@ -3121,12 +3147,12 @@ msgstr ""
 msgid "Notification saved successfully"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModal.js:13
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModal.js:55
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModal.js:12
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModal.js:54
 msgid "Add Recipients"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModal.js:54
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModal.js:53
 msgid "Schedule Date"
 msgstr ""
 
@@ -3135,36 +3161,36 @@ msgstr ""
 msgid "Select Day"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/recipientSearchFilters.js:51
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/recipientSearchFilters.js:63
 msgid "Default"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/recipientSearchFilters.js:52
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/recipientSearchFilters.js:64
 msgid "Recently Added"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/recipientSearchFilters.js:53
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/recipientSearchFilters.js:65
 msgid "A-Z"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/recipientSearchFilters.js:54
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/recipientSearchFilters.js:66
 msgid "Z-A"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/recipientSearchFilters.js:82
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/recipientSearchFilters.js:92
 msgid "Clear all filters"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/schduleTabUsers.js:179
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/schduleTabUsers.js:221
 msgid "Search Users"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/schduleTabUsers.js:188
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/schduleTabUsers.js:230
 #: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/scheduleTabUsersEmail.js:303
 msgid "Added Recipients"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/schduleTabUsers.js:207
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/schduleTabUsers.js:249
 msgid "Users"
 msgstr ""
 
@@ -3229,46 +3255,46 @@ msgid "Select Time"
 msgstr ""
 
 #. translators: %d: Minimum letter number in order to start remote search
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/userSeacrhFilters.js:167
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/userSeacrhFilters.js:168
 #, js-format
 msgid "You need to type at least %d characters."
 msgstr ""
 
 #. translators: %s: The search term
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/userSeacrhFilters.js:176
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/userSeacrhFilters.js:177
 #, js-format
 msgid "No user found for <strong>%s</strong> term."
 msgstr ""
 
 #. translators: %d: Minimum letter number in order to start remote search
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/userSearchField.js:76
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/userSearchField.js:78
 #, js-format
 msgid "Nothing found for term %s."
 msgstr ""
 
 #. translators: %d: Minimum letter number in order to start remote search
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/userSearchField.js:161
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/userSearchField.js:164
 #, js-format
 msgid "Please enter %d or more characters."
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/userSearchField.js:260
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/scheduleModuleParts/userSearchField.js:285
 msgid "Type username"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/summary.js:43
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/summary.js:42
 msgid " URLs"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/summary.js:97
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/summary.js:96
 msgid "Start Time"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/summary.js:106
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/summary.js:105
 msgid "End Time"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/summary.js:115
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/components/summary.js:114
 msgid "Duration"
 msgstr ""
 
@@ -3276,24 +3302,24 @@ msgstr ""
 msgid "Click to close"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/resultsArea.js:55
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/resultsArea.js:57
 msgid "BLC isn't connected to a WPMU DEV account. Connect to unlock additional free features."
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/resultsArea.js:67
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/resultsArea.js:71
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/resultsArea.js:69
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/resultsArea.js:73
 msgid "Connect to Hub"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/resultsArea.js:112
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/resultsArea.js:116
 msgid "Product Roadmap"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/resultsArea.js:148
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/resultsArea.js:152
 msgid "Profile"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/resultsArea.js:184
+#: app/admin-pages/cloud-page/assets/js/layouts/dashboard/resultsArea.js:190
 msgid "Your site is connected to the Hub. You can now manage your broken links with our cloud based service."
 msgstr ""
 
@@ -3301,69 +3327,73 @@ msgstr ""
 msgid "Enable scheduled broken link checks and be notified of results."
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:184
+#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:183
 msgid "Connect to WPMU DEV"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:187
-#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:203
+#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:186
+#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:202
 msgid "Next-gen broken link detection is just a few clicks away.  Activate Cloud-based Broken Link Checker by connecting your site to WPMU DEV. Run your first scan in minutes."
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:209
+#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:208
 msgid "Activate WPMU DEV Dashboard"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:220
+#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:219
 msgid "Next-gen broken link detection is just a few clicks away. Activate Cloud-based Broken Link Checker by enabling the new version. Run your first scan in minutes."
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:226
+#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:225
 msgid "Enable Cloud Engine"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:235
+#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:234
 msgid "A WPMU DEV connection is required"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:239
+#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:238
 msgid "Connecting to plugin developer WPMU DEV’s API allows you to access all of the cloud-based benefits + a host of helpful bonus tools."
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:245
+#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:244
 msgid "We don’t store private data"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:246
+#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:245
 msgid "We do not store any of your private data, ever."
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:252
+#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:251
 msgid "You can switch plugin versions without worry"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:256
+#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:255
 msgid "Easily move between local and cloud broken link checking without losing your saved settings."
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:279
+#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:278
 msgid "Activate Cloud-based Link Checker for better accuracy & superior speed"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:310
+#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:309
 msgid "The company behind BLC 2.0, WPMU DEV is an all-in-one WordPress platform that has helped millions of web developers worldwide run and grow their businesses. Connecting your site to WPMU DEV allows you to harness BLC 2.0’s full capabilities (plus, you’ll gain access to a host of other powerful bonus web dev tools for free)"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:324
+#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:323
 msgid "What is WPMU DEV?"
 msgstr ""
 
-#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:338
+#: app/admin-pages/cloud-page/assets/js/layouts/onboarding/body.js:337
 msgid "Unsure about switching to cloud-based? Here’s what you need to know:"
 msgstr ""
 
 #: assets/common/js/react/components/modal.js:55
 msgid "Close this modal"
+msgstr ""
+
+#: assets/common/js/react/components/searchDropdown.js:251
+msgid "Loading results"
 msgstr ""
 
 #: core/external/plugins-cross-sell-page/assets/js/crosssellpage.js:137
